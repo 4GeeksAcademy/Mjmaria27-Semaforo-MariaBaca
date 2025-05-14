@@ -1,0 +1,34 @@
+.traffic-light {
+  width: 100px;
+  background: #333;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: gray;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
+
+.glow {
+  box-shadow: 0 0 30px 10px white;
+}
